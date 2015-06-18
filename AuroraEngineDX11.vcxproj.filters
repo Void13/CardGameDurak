@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AUT">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5dc1ba11-4016-44f5-9e5e-9f6e0f717dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\AUT\AUTshaders.h">
+      <Filter>AUT</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\AUT\AUT.h">
+      <Filter>AUT</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Libs\DXUTmisc.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\AUT\AUTstring.h">
+      <Filter>AUT</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Cards.h" />
+    <ClInclude Include="engine\Game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine\main.cpp" />
+    <ClCompile Include="engine\AUT\AUT.cpp">
+      <Filter>AUT</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\AUT\AUTshaders.cpp">
+      <Filter>AUT</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Libs\DXUTmisc.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\AUT\AUTstring.cpp">
+      <Filter>AUT</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Cards.cpp" />
+    <ClCompile Include="engine\Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="engine\shaders\Sources\LineRenderer.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="engine\shaders\Sources\CardRenderer.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
